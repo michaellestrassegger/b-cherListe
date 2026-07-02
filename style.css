@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+}
+
+.form{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    margin-bottom:30px;
+}
+
+input,select,button{
+    padding:10px;
+}
+
+.book{
+    background:white;
+    padding:15px;
+    margin:15px auto;
+    max-width:500px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+}
+
+button{
+    cursor:pointer;
+}
